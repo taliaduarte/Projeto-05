@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+:root {
+    --bg-image: url(../assets/Background_Intro.png);
+
+    --color-principal-red: #E3646E;
+    --color-principal-purple: #BB72E9 ;
+    --color-principal-blue: #3996DB ;
+    --color-principal-green: #82BC4F ;
+    --color-principal-yellow: #EABD5F ;
+
+    --color-base-gray-100: #0D0E11 ;
+    --color-base-gray-200: #16181D ;
+    --color-base-gray-300: #292C34 ;
+    --color-base-gray-400: #878EA1 ;
+    --color-base-gray-500: #C0C4CE ;
+    --color-base-gray-600: #E2E4E9 ;
+
+    --font-family-title: "Asap", sans-serif;
+    --title-lg: 800 56px/120% var(--font-family-title);
+    --title-md: 800 24px/120% var(--font-family-title);
+    --title-sm: 800 16px/120% var(--font-family-title);
+
+    --font-family-subtitle: "Inconsolata", monospace;
+    --text-subtitle: 400 20px/120% var(--font-family-subtitle);
+
+    --font-family-text: "Maven Pro", sans-serif;
+    --text-md: 400 16px/140% var(--font-family-text);
+    --text-sm: 400 16px/140% var(--font-family-text);
+}
+
+span {
+    color: var(--color-principal-red);
+    
+}
+
+
