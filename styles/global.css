@@ -34,9 +34,51 @@
     --text-sm: 400 16px/140% var(--font-family-text);
 }
 
+body {
+    
+    background-color: var(--color-base-gray-200);
+    
+    
+}
+
+.content {
+    display: flex; /* Use flexbox para os divs internos */
+    flex-direction: column; /* Alinha os divs em coluna */
+    align-items: center; /* Centraliza os divs horizontalmente */
+    text-align: center; /* Centraliza o texto */
+    max-width: 800px;/* Limita a largura do conteúdo */
+    padding: 24px;  /*Adiciona espaço interno */
+    height: 100vh;
+    
+}
+
 span {
     color: var(--color-principal-red);
+    font: var(--text-subtitle);
+}
+
+.text-subtitle {
+    font: var(--text-subtitle);
+    color: var(--color-base-gray-500);
     
+}
+
+.title-lg {
+    font: var(--title-lg);
+    color: var(--color-base-gray-600);
+    font-size: 50px;
+}
+
+.title-md {
+    font: var(--title-md);
+    color: var(--color-base-gray-600);
+    padding: 12px;
+}
+
+.text-sm {
+    font: var(--text-sm);
+    color: var(--color-base-gray-400);
+    font-size: 12px ;
 }
 
 

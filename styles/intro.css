@@ -5,40 +5,9 @@
 
     background-image: var(--bg-image);
     background-size: cover;
-    height: 750px;
+    height: 1000px;
+    padding: 0%;
 
-}
-
-
-.content {
-    display: flex; /* Use flexbox para os divs internos */
-    flex-direction: column; /* Alinha os divs em coluna */
-    align-items: center; /* Centraliza os divs horizontalmente */
-    text-align: center; /* Centraliza o texto */
-    max-width: 800px;/* Limita a largura do conteúdo */
-    padding: 65px; /* Adiciona espaço interno */
-    height: 100vh;
-    
-}
-
-.text-subtitle {
-    font: var(--text-subtitle);
-    color: var(--color-base-gray-500);
-    
-}
-
-.title-lg {
-    font: var(--title-lg);
-    color: var(--color-base-gray-600);
-    font-size: 50px;
-    margin: 8px 30px;
-}
-
-.text-sm {
-    font: var(--text-sm);
-    color: var(--color-base-gray-400);
-    font-size: 12px ;
-    margin: 12px;
 }
 
 .code {
@@ -92,7 +61,7 @@ ul li {
 }
 
 span > img {
-    padding: 94px 88px;
+    padding-top: 84px;
 }
 
 
