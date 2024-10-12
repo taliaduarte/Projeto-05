@@ -30,7 +30,11 @@ Div.icone-perfil img {
 }
 
 figcaption {
-    padding: 52px;
+    position: relative;
+    left: 190px;
+    bottom: 120px;
+    
+    
 }
 
 
