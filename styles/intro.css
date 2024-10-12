@@ -1,67 +1,74 @@
 #intro {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    background-image: var(--bg-image);
-    background-size: cover;
-    height: 1000px;
-    padding: 0%;
-
-}
-
-.code {
-    position: relative;
-    left: 32px;
-    bottom: 35px;
-    size: 25px;
+    
+    padding: 2px;
     
 }
 
-.avatar {
-    padding-top: 45px;
+header {
+    
+    background-image: url(../assets/Background_Intro.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    height: 100vh;
 }
 
-.tag {
-    display: grid;
-    grid-auto-flow: column;
-    justify-content: center;
-    font: var(--text-md);
-    color: var(--color-base-gray-500);
-    padding-top: 80x;
+
+.icone-perfil {
+    margin-top: 395px;
+    padding: 52px;
+    gap: 5px;
+    width: 72px;
     
 }
 
-.tag li {
-    display: flex; /* Organiza os itens em linha (imagem + texto) */
-    align-items: center;  /* Alinha verticalmente ao centro */
-    margin-bottom: 10px;
-
+Div.icone-perfil img {
+    height: 200px;
+    transform: translateY(50% 50%); /*centralizar ícone foto de perfil*/
+    
 }
+
+figcaption {
+    padding: 52px;
+}
+
 
 ul {
-    display: grid;
-    grid-auto-flow: column;
-    justify-content: center;
+    size: 110px;
     gap: 16px;
     list-style: none;
-    padding-top: 80px;
+    display: flex;
     
 }
 
 ul li {
-    display: inline-block; /*quero os dois comportamentos, o padding se comporta melhor*/
-    background-color: var(--color-base-gray-300);
-    padding: 5px 8px;
-    border-radius: 20px;
     
-    letter-spacing: 0.04em;
+    background-color: var(--color-base-gray-300);
+    padding: 32px;
+    border-radius: 55px;
+    
+    
+    letter-spacing: 0.10rem;
     box-shadow: 0px 4px 16px rgba(2, 6, 23, 0.251);
     
 }
 
-span > img {
-    padding-top: 84px;
+.tecnologias li {
+    font-size: 40px;
+    display: grid;
+    justify-content: space-between;
+    grid-auto-flow: column;
+    
+    
 }
 
+
+.tecnologias img {
+    width: 72px;
+    aspect-ratio: 1/1;
+    object-fit: center center;
+    
+    
+}
 

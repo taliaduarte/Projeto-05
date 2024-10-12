@@ -1,40 +1,6 @@
 main {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-
-    
+   
     background-color: var(--color-base-gray-200);
    
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: repeat(3,3);
-    gap: 24px;
-    
-}
-
-section img {
-    width: 306px;
-    object-fit: cover;
-    
-}
-
-.projects {
-    display: grid;
-    grid-template-columns: 0.5fr 0.5fr 0.5fr;
-    justify-content: center;
-    color: var(--color-base-gray-500);
-    
-    
-}
-
-section div {
-    display: inline-block; /*quero os dois comportamentos, o padding se comporta melhor*/
-    background-color: var(--color-base-gray-300);
-    padding: 5px 8px;
-    border-radius: 20px;
-    
-    box-shadow: 0px 4px 16px rgba(2, 6, 23, 0.251);
-}
