@@ -12,19 +12,19 @@
     <title>Portfólio Dev</title>
 </head>
 <body>
-        <header id="intro" class="flex">   
-            <div>
-                <div class="icone-perfil">
-                    <img src="assets/images/User.png" alt="foto de Martina Santos">
-                </div>      
-                <figcaption> 
-                    <figure>   
-                        <img src="assets/icons/Code.svg" alt="ícone código">
-                    </figure>
-                </figcaption>
-            </div>
+    <header id="intro" class="flex">   
+        <div>
+            <div class="icone-perfil">
+                <img src="assets/images/User.png" alt="foto de Martina Santos">
+            </div>      
+            <figcaption> 
+                <figure>   
+                    <img src="assets/icons/Code.svg" alt="ícone código">
+                </figure>
+            </figcaption>
+        </div>
 
-            <div class="flex text-content">
+        <div class="flex text-content">
                 <h3 class="text-subtitle">
                     Hello World! Meu nome é <span>Martina Santos</span> e sou
                 </h3>
@@ -32,94 +32,123 @@
                 <p class="text-sm">
                     Transformo necessidades em aplicações reais, evolventes e funcionais. Desenvolvo sistemas através da minha paixão pela tecnologia, contribuindo com soluções inovadoras e eficazes para desafios complexos.
                 </p>
-            </div>
+        </div>
 
-           <ul class="grid tecnologias">
-                <li>
-                    <img src="assets/icons/GitHub.svg" alt="">
-                    <p class="text-md">GitHub</p>
+        <ul class="grid tecnologias">
+            <li>
+                <img src="assets/icons/GitHub.svg" alt="">
+                <p class="text-md">GitHub</p>
+            </li>
+            <li>
+                <img src="assets/icons/HTML.svg" alt="">
+                <p class="text-md">HTML</p>
+            </li>
+            <li>
+                <img src="assets/icons/CSS.svg" alt="">
+                <p class="text-md">CSS</p>
+            </li>
+            <li>
+                <img src="assets/icons/JavaScript.svg" alt="">
+                <p class="text-md">Javascript</p>
+            </li>
+            <li>
+                <img src="assets/icons/React.svg" alt="">
+                <p class="text-md">React</p>
+            </li>
+            <li>
+                <img src="assets/icons/Node.js.svg" alt="">
+                <p class="text-md">Node.js</p>
+            </li>
+        </ul>
 
-                </li>
-                <li>
-                    <img src="assets/icons/HTML.svg" alt="">
-                    <p class="text-md">HTML</p>
-                </li>
-                <li>
-                    <img src="assets/icons/CSS.svg" alt="">
-                    <p class="text-md">CSS</p>
-                </li>
-                <li>
-                    <img src="assets/icons/JavaScript.svg" alt="">
-                    <p class="text-md">Javascript</p>
-                </li>
-                <li>
-                    <img src="assets/icons/React.svg" alt="">
-                    <p class="text-md">React</p>
-                </li>
-                <li>
-                    <img src="assets/icons/Node.js.svg" alt="">
-                    <p class="text-md">Node.js</p>
-                </li>
-            </ul>
-
-                <span class="icone-seta">
-                    <img src="assets/icons/CaretDoubleDown.svg" alt="">
-                </span>
-        </header>
+        <span class="icone-seta">
+            <img src="assets/icons/CaretDoubleDown.svg" alt="">
+        </span>
+    </header>
     
 
     <main>
-        <section class="flex">
-            <span>Meu trabalho</span>
-            <h2 class="title-md">Veja os projetos em destaque</h2>
-        </section>
-
-        <section class="flex">
-            <div>
-                <img src="assets/images/image 2.png" alt="">
-                <h3 class="title-sm">Travelgram</h3>
-                <p class="text-sm">
-                    Rede social onde as pssoas mostram os registros de suas viagens pelo mundo. 
-                </p>
-            </div>
-    
-            <div>
-                <img src="assets/images/Thumbnail_Project-02.png" alt="">
-                <h3 class="title-sm">Tech News</h3>
-                <p class="text-sm">
-                    Homepage de um portal de notícia sobre a área de tecnologia. 
-                </p>
-            </div>
-            <div>
-                <img src="assets/images/Thumbnail_Project-03.png">
-                <h3 class="title-sm">Página de receita</h3>
-                <p class="text-sm">
-                    Página com o passo a passo de uma receita para cupcakes. 
-                </p>
-            </div>
-            <div>
-                <img src="assets/images/Thumbnail_Project-04.png" alt="">
-                <h3 class="title-sm">Zingen</h3>
-                <p class="text-sm">
-                    Landing Page completa e reponsiva de um aplicativo de Karaokê. 
-                </p>
-            </a>
-            <a>
-                <img src="assets/images/Thumbnail_Project-05.png" alt="">
-                <h3 class="title-sm">Refund</h3>
-                <p class="text-sm">
-                    Um sistema para pedido e acompanhamento de reembolso.
-                </p>
+        <div id="jobs">
+            <a href="#">
+                <div class="grid-title">
+                    <span>Meu trabalho</span>
+                    <h2 class="title-md">Veja os projetos em destaque</h2>
+                </div>
             </a>
 
-            <a>
-                <img src="assets/images/Thumbnail_Project-06.png">
-                <h3 class="title-sm">Página de turismo</h3>
-                <p class="text-sm">
-                    Página com as principais informações para quem quer viajar para Busan.
-                </p>
-            </a>
-        </section>
+            <section class="grid projects">
+                <a href="#"> <!--link para usar a propriedade hover-->
+                    <div class="bg-projects gap-20">
+                        <figure>
+                            <img src="assets/images/image 2.png" alt="">
+                        </figure>    
+                        <h3 class="title-sm">Travelgram</h3>
+                        <p class="text-sm">
+                            Rede social onde as pssoas mostram os registros de suas viagens pelo mundo. 
+                        </p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="bg-projects">
+                        <figure>
+                        <img src="assets/images/Thumbnail_Project-02.png" alt="">
+                        </figure>
+                        <h3 class="title-sm">Tech News</h3>
+                        <p class="text-sm">
+                            Homepage de um portal de notícia sobre a área de tecnologia. 
+                        </p>
+                    </div>
+                </a>
+
+                <a href="#">>
+                    <div class="bg-projects">
+                        <figure>
+                        <img src="assets/images/Thumbnail_Project-03.png">
+                        </figure>
+                        <h3 class="title-sm">Página de receita</h3>
+                        <p class="text-sm">
+                            Página com o passo a passo de uma receita para cupcakes. 
+                        </p>
+                    </div>
+                </a>
+
+                <a href="#">
+                <div class="bg-projects">
+                    <figure>
+                    <img src="assets/images/Thumbnail_Project-04.png" alt="">
+                    </figure>
+                    <h3 class="title-sm">Zingen</h3>
+                    <p class="text-sm">
+                        Landing Page completa e reponsiva de um aplicativo de Karaokê. 
+                    </p>
+                </div>
+                </a>
+
+                <a href="#">
+                <div class="bg-projects">
+                    <figure>
+                    <img src="assets/images/Thumbnail_Project-05.png" alt="">
+                    </figure>
+                    <h3 class="title-sm">Refund</h3>
+                    <p class="text-sm">
+                        Um sistema para pedido e acompanhamento de reembolso.
+                    </p>
+                </div>
+                </a>
+
+                <a href="#">
+                <div class="bg-projects">
+                    <figure>
+                    <img src="assets/images/Thumbnail_Project-06.png" alt="">
+                    </figure>
+                    <h3 class="title-sm">Página de turismo</h3>
+                    <p class="text-sm">
+                        Página com as principais informações para quem quer viajar para Busan.
+                    </p>
+                </div>
+                </a>
+            </section>
+        </div>
     </main>
 
     <aside></aside>

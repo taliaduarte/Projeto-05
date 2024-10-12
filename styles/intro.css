@@ -1,5 +1,5 @@
 #intro {
-    gap: 85px;
+    
     padding-bottom: 500px;
     position: relative;
 }
@@ -56,7 +56,7 @@ ul li {
 
 .tecnologias {
     padding-top: 80px; /*distancia entre conteúdo e a lista*/
-    padding-bottom: 94px; /*distância entre ícone seta e a lista*/
+    margin-bottom: 96px; /*entre lista e o ícone*/
 }
 
 .tecnologias li {
@@ -71,6 +71,12 @@ ul li {
     width: 72px;
     aspect-ratio: 1/1;
     object-fit: center center;
+}
+
+.icone-seta {
+   padding-top: 144px;  /*distância entre ícone seta e a lista*/
+    
+    
 }
 
 span.icone-seta img {

@@ -1,6 +1,52 @@
 main {
-   
     background-color: var(--color-base-gray-200);
-   
+    box-sizing: border-box;
 }
 
+.projects {
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px; /*Espaçamento entre as colunas */
+
+    padding: 56px;/*distância projetos e os textos*/
+    margin-block: 165px;
+    padding-inline: 500px;
+    margin-bottom: 144px;
+}
+
+.projects img {
+    height: auto;
+    width: 100%;
+    gap: 205px;
+    padding: 32px;
+    border-radius: 85px;
+}
+
+.grid-title {
+    grid-auto-flow: row; /*deixa todo o conteúdo em linha*/ 
+    text-align: center;
+    padding-bottom: 56px;
+    font-size: 100px;
+}
+
+.bg-projects {
+    background-color: var(--color-base-gray-300);
+    border-radius: 55px;
+    letter-spacing: 0.10rem;
+    box-shadow: 0px 4px 16px rgba(2, 6, 23, 0.251);
+
+    padding: 56px;  /*aumentar espaço entre a borda e os conteúdos*/
+    margin: auto;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.projects div p {
+    text-align: left; /* Alinha o texto do <p> à esquerda */
+    
+    
+}

@@ -69,7 +69,7 @@ body {
 span {
     color: var(--color-principal-red);
     font: var(--text-subtitle);
-    font-size: 45px;
+    font-size: 50px;
 }
 
 .text-subtitle {
@@ -88,14 +88,20 @@ span {
 .title-md {
     font: var(--title-md);
     color: var(--color-base-gray-600);
-    
+    font-size: 80px;
+}
+
+.title-sm {
+    font: var(--title-sm);
+    color: var(--color-base-gray-600);
+    font-size: 50px;
 }
 
 .text-sm {
     font: var(--text-sm);
     color: var(--color-base-gray-400);
     font-size: 45px ; /*tamanho da fonte do paragrafo*/
-    padding-inline: 900px; /*diminuir espaço das laterais e deixar o texto mais junto*/
+    /*padding-inline: 900px; diminuir espaço das laterais e deixar o texto mais junto*/
     text-align: center;
 }
 
