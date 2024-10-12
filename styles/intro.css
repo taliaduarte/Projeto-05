@@ -1,11 +1,10 @@
 #intro {
-    
-    padding: 2px;
-    
+    gap: 85px;
+    padding-bottom: 500px;
+    position: relative;
 }
 
 header {
-    
     background-image: url(../assets/Background_Intro.png);
     background-size: 100% 100%;
     background-position: center;
@@ -14,65 +13,66 @@ header {
     height: 100vh;
 }
 
+.text-content {
+    gap: 12px;
+}
 
 .icone-perfil {
-    margin-top: 395px;
-    padding: 52px;
-    gap: 5px;
-    width: 72px;
-    
+    margin-top: 500px;
+    padding-top: 52px;
+    margin-bottom: 56px;/*distancia img conteúdo*/
 }
 
 Div.icone-perfil img {
-    height: 200px;
+    height: 240px;
     transform: translateY(50% 50%); /*centralizar ícone foto de perfil*/
-    
+}
+
+div figcaption img {
+    height: 100px;
 }
 
 figcaption {
     position: relative;
-    left: 190px;
-    bottom: 120px;
-    
-    
+    left: 160px;
+    bottom: 130px;
 }
 
-
 ul {
+    display: flex;
     size: 110px;
     gap: 16px;
     list-style: none;
-    display: flex;
-    
 }
 
 ul li {
-    
     background-color: var(--color-base-gray-300);
     padding: 32px;
     border-radius: 55px;
     
-    
     letter-spacing: 0.10rem;
     box-shadow: 0px 4px 16px rgba(2, 6, 23, 0.251);
-    
+}
+
+.tecnologias {
+    padding-top: 80px; /*distancia entre conteúdo e a lista*/
+    padding-bottom: 94px; /*distância entre ícone seta e a lista*/
 }
 
 .tecnologias li {
-    font-size: 40px;
     display: grid;
     justify-content: space-between;
     grid-auto-flow: column;
-    
-    
+    margin-top: 80px;
+    font-size: 40px;
 }
-
 
 .tecnologias img {
     width: 72px;
     aspect-ratio: 1/1;
     object-fit: center center;
-    
-    
 }
 
+span.icone-seta img {
+    height: 62px; /*altura do ícone seta*/
+}
