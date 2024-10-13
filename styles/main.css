@@ -39,10 +39,25 @@ main {
     padding: 56px;  /*aumentar espaço entre a borda e os conteúdos*/
     margin: auto;
     height: 100%;
+
+    transition: border 0.3s ease, transform 0.3s ease; /* Animação suave para a borda e transformação */
+    border: 2px solid transparent; /* Borda invisível inicialmente */
 }
 
 a {
     text-decoration: none;
+}
+
+.bg-projects:hover {
+    border: 2px solid #C0C4CE; /* Borda ao passar o mouse */
+    transform: scale(1.05); /* Leve zoom no hover */
+}
+
+.bg-projects div {
+    display: block;
+    padding: 15px;
+    border: 2px solid transparent; /* Define uma borda invisível por padrão */
+    transition: border 0.3s ease; /* Suaviza a transição da borda */
 }
 
 .projects div p {

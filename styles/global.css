@@ -71,13 +71,14 @@ span {
     color: var(--color-principal-red);
     font: var(--text-subtitle);
     font-size: 50px;
+   
 }
 
 .text-subtitle {
     font: var(--text-subtitle);
     color: var(--color-base-gray-500);
     font-size: 45px;
-    
+    text-align: center;
 }
 
 .title-lg {
@@ -90,6 +91,7 @@ span {
     font: var(--title-md);
     color: var(--color-base-gray-600);
     font-size: 80px;
+    text-align: center;
 }
 
 .title-sm {

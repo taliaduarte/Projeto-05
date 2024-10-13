@@ -1,0 +1,58 @@
+footer {
+    background-image: url(../assets/Background_Contacts.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    height: 100vh;
+    text-align: center; /*centralizar tudo no rodape*/
+}
+
+span.purple {
+    color: var(--color-principal-purple);
+    font: var(--text-subtitle);
+    font-size: 45px;
+    
+}
+
+.list-contacts li {
+    display: grid;
+    justify-content: space-between;
+    grid-auto-flow: column;
+    gap: 72px;
+    margin-top: 80px;
+    padding-inline: 75px;
+    font-size: 40px;
+
+    transition: border 0.3s ease, transform 0.3s ease; /* Animação suave para a borda e transformação */
+    border: 2px solid transparent; /* Borda invisível inicialmente */
+}
+
+.list-contacts img {
+    width: 72px;
+    aspect-ratio: 1/1;
+    object-fit: center center;
+}
+
+.list-contacts {
+    display: inline-block; /*colocar a lista em linhas*/
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.hover-blue:hover {
+    border: 2px solid #3996DB; /* Borda ao passar o mouse */
+}
+
+.list-contacts div {
+    display: block;
+    padding: 15px;
+    border: 2px solid transparent; /* Define uma borda invisível por padrão */
+    transition: border 0.3s ease; /* Suaviza a transição da borda */
+}
+
+.icon-blue img {
+    height: 32px;
+}
