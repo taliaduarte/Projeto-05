@@ -46,6 +46,7 @@ body {
 
 .gap-16 {
     gap: 16px;
+    padding-top: 250px;
 }
 
 .flex {
@@ -62,7 +63,7 @@ body {
 .grid {
     display: grid;
     grid-auto-flow: column;
-    gap: 16px;
+    
 }
     
 

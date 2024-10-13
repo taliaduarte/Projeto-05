@@ -1,0 +1,74 @@
+aside {
+    background-color: var(--color-base-gray-100);
+    padding-top: 88px; 
+}
+
+.container-services {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px; /*Espaçamento entre as colunas */
+
+    margin-inline: 340px;
+    margin-bottom: 240px;
+    
+    padding-bottom: 35px;
+    /* margin-inline: auto;  Centraliza o container */
+    padding: 100px; /* Aumenta o espaço lateral dentro do container */
+    max-width: auto;
+    text-align: start;
+    justify-content: center;
+
+    
+    
+}
+
+
+    
+.container-services div {
+    padding-block: 14px;
+    border-radius: 15px;
+    letter-spacing: 0.10rem;
+    border: 1px solid var(--color-base-gray-300); /* Borda aplicada */
+
+    margin-inline: 240px;
+    align-items: start; 
+     
+    
+        
+}
+
+.container-services figure img {
+    height: 100px;
+    
+    margin-bottom: 25px;  /*Espaçamento entre a imagem e o título */
+    margin-top: 38px;
+}
+
+
+
+.container-services div {
+    border-radius: 15px;
+    letter-spacing: 0.10rem;
+    border: 1px solid var(--color-base-gray-300); /* Borda aplicada */
+    
+    padding: 15px;  /* Aumenta o espaço entre a borda e o conteúdo */
+    margin: 12px; /*alinhou os coneúdos dentro da div*/
+    
+    
+}
+
+.service-item p {
+    text-align: start;
+    padding-block: 35px;
+}
+
+div.service-item {
+   padding: 25px;
+   padding-top: 32px;
+   margin-bottom: 240px;
+}
+
+div.grid-title {
+    margin-top: 88px;
+}
