@@ -13,6 +13,13 @@ header {
     height: 100vh;
 }
 
+.style-text {
+    padding-inline: 500px;
+    margin-inline: 600px;
+    flex-wrap: wrap;
+    font-size: 50px;
+}
+
 .text-content {
     gap: 12px;
 }
@@ -45,7 +52,7 @@ ul {
     list-style: none;
 }
 
-ul li {
+.bg-tecnologias li { /*tenho que mudar isso, porque afeta as duas listas */
     background-color: var(--color-base-gray-300);
     padding: 32px;
     border-radius: 55px;
@@ -65,6 +72,7 @@ ul li {
     grid-auto-flow: column;
     margin-top: 80px;
     font-size: 40px;
+
 }
 
 .tecnologias img {

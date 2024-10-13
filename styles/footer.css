@@ -8,38 +8,71 @@ footer {
     text-align: center; /*centralizar tudo no rodape*/
 }
 
+footer div {
+    position: center;
+    padding-inline: 450px;
+    margin-inline: 500px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
 span.purple {
     color: var(--color-principal-purple);
     font: var(--text-subtitle);
-    font-size: 45px;
+    font-size: 55px;
+}
+
+.text-style {
+    margin: 0%;
+    text-align: center center;
+}
+
+.list-contacts {
+    display: grid;
+    display: inline-block; /*colocar a lista em linhas*/
+    justify-content: center;
+    align-items: left;
+
+    height: 100vh;
     
+    margin-inline: 800px;
+    padding-inline: 200px;
+    padding-bottom: 500px;
+}
+
+.bg-contacts li {
+    background-color: var(--color-base-gray-300);
+        
+    padding: 52px;
+    border-radius: 32px;
+    letter-spacing: 0.10rem;
+    box-shadow: 0px 4px 16px rgba(2, 6, 23, 0.251);
+
+    height: auto;
+}
+
+div.text-style {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
 }
 
 .list-contacts li {
     display: grid;
-    justify-content: space-between;
+    justify-content: start;
     grid-auto-flow: column;
-    gap: 72px;
-    margin-top: 80px;
-    padding-inline: 75px;
-    font-size: 40px;
-
+    gap: 16px;
+    
+    font-size: 55px;
     transition: border 0.3s ease, transform 0.3s ease; /* Animação suave para a borda e transformação */
     border: 2px solid transparent; /* Borda invisível inicialmente */
 }
 
 .list-contacts img {
-    width: 72px;
+    width: 82px;
     aspect-ratio: 1/1;
     object-fit: center center;
-}
-
-.list-contacts {
-    display: inline-block; /*colocar a lista em linhas*/
-    justify-content: center;
-    align-items: center;
-
-    
 }
 
 .hover-blue:hover {
@@ -48,11 +81,37 @@ span.purple {
 
 .list-contacts div {
     display: block;
-    padding: 15px;
+    padding: 5px;
     border: 2px solid transparent; /* Define uma borda invisível por padrão */
-    transition: border 0.3s ease; /* Suaviza a transição da borda */
+    transition: border 0.3s ease; /* Suaviza a transição da borda */  
 }
 
 .icon-blue img {
     height: 32px;
+}
+
+ul.list-contacts {
+    display: flex;
+    flex-direction: column; /* Deixa os itens um abaixo do outro */
+    gap: 12px; /* Espaçamento entre os itens da lista */
+    
+    list-style: none; /* Remove os marcadores padrão da lista */
+}
+
+ul.list-contacts li {
+    display: flex;
+    align-items: center; /* Alinha os itens verticalmente no centro */
+    justify-content: space-between; /* Espaça os elementos no eixo horizontal */
+    
+    border-radius: 10px; /* Deixa as bordas arredondadas */ 
+}
+
+ul.list-contacts li h3 {
+    flex: 1; /* Faz o título ocupar o espaço disponível */
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+ul.list-contacts li img {
+    max-width: 40px; /* Limita o tamanho da imagem para que fique consistente */
+    height: auto;
 }
